@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    
+    font-size: large;
+}
+.name-input{
+    padding: 10px 8px;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.date-input{
+    padding: 9px 5px;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.add-btn{
+    color: white;
+    border: none;
+    background: green;
+    font-size: 18px;
+    padding: 12px 40px;
+}
+.todo-txt{
+    font-size: 20px;
+}
+.btn-delete{
+    color: white;
+    border: none;
+    font-size: 18px;
+    background:rgb(159, 12, 12);
+    padding: 8px 20px;
+}
+.todo-grid{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 260px 167px 112px;
+    row-gap: 10px;
+}
