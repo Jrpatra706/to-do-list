@@ -2,8 +2,8 @@ const arr=[];
 
 function showListOnHtml(){
     let todoListHTML='';
-    for(let i=0;i<arr.length;i++){
-        const todo = arr[i];
+    arr.forEach((todo,i) =>{
+        // const todo = arr[i];
         const name = todo.name;
         const dueDate =todo.dueDate;
         const html = `
@@ -19,7 +19,7 @@ function showListOnHtml(){
                 Delete
             </button>`;
         todoListHTML += html;
-    }
+    });
     document.querySelector('.todo').innerHTML = todoListHTML;
 }
 function addToList(){
